@@ -4,12 +4,13 @@ console.log(maChaise, typeof maChaise);
 // log est une méthode
 //l'objet demande a une methode
 
-const withJs = "With JavaScript.";
+//<---Concaténation--->
 
+const withJs = "With JavaScript.";
 let message = maChaise + withJs;
 console.log(message, typeof message);
 //I Love Coding With JavaScript. String
-//concéténation permet de joindre deux varialbes typer string (chaine de charactère) enssemble 
+//concaténation permet de joindre deux varialbes typer string (chaine de charactère) enssemble 
 
 const year = "2024";
 message += " since " + year
@@ -24,3 +25,13 @@ console.log(message2, typeof message2);
 // les `` permet d'integrer directement les variables dans les chaines
 const message3 = `Je m'appelle ${prenom} et j'ai ${age} ans.`;
 console.log(message3, typeof message3);
+
+//<---Sous Chaîne--->
+
+// let text = "Hello World, Welcome to the universe";
+// let result = text.indexOf("Welcome");
+// indexOf est une méthode
+
+const text = "How are you doing today ?";
+const myArray = text.split(" ");
+console.log(myArray, typeof myArray);
