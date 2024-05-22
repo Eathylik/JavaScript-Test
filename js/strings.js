@@ -1,5 +1,8 @@
 const maChaise = "I love coding ";
 console.log(maChaise, typeof maChaise);
+// console est un objet
+// log est une méthode
+//l'objet demande a une methode
 
 const withJs = "With JavaScript.";
 
