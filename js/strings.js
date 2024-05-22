@@ -41,3 +41,5 @@ console.log(text.split(" "));
 const visit = "Visit Microsoft"
 const visitReplace = visit.replace("Microsoft" , "W3Schools");
 console.log(visitReplace);
+
+console.log(visit.toUpperCase());
