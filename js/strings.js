@@ -35,3 +35,9 @@ console.log(message3, typeof message3);
 const text = "How are you doing today ?";
 const myArray = text.split(" ");
 console.log(myArray, typeof myArray);
+console.log(text.length);
+console.log(text.split(" "));
+
+const visit = "Visit Microsoft"
+const visitReplace = visit.replace("Microsoft" , "W3Schools");
+console.log(visitReplace);
