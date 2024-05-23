@@ -26,4 +26,7 @@ console.log(pGreen);
 
 const paragraphes = document.querySelectorAll("p");
 paragraphes[3].classList.add("blueCss");//permet de rajouter une classe à son element
-    
+ //document est une variable globale est accessible partout
+ //document est un objet et on peut associer des méthodes
+ //selction un element avec querySelector pour 1 élément
+ //querySelectorAll pour cibler plusieurs élément
